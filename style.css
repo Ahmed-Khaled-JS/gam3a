@@ -1,0 +1,70 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+*{
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth; 
+}
+:root {
+    --font-color1: rgb(248, 70, 0);
+    --backgr-color1: #f0f0f0;
+    --font-color2:  #fff;
+    --backgr-color2: #000016;
+    --hover-color: blueviolet;
+}
+/*  Start global rules */
+
+
+.container{
+    padding-left: 15px;
+    padding-right: 15px;
+    margin-left: auto;
+    margin-right: auto;
+}
+/* Small */
+@media (min-width: 768px) {
+    .container{
+        width: 750px;
+    }
+}
+/* medium */
+@media (min-width: 992px) {
+    .container{
+        width: 970px;
+    }
+}
+/* Large */
+@media (min-width: 1200px) {
+    .container{
+        width: 1170px;
+    }
+}
+/* end global rules */       
+.grid { 
+display: grid;
+grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+grid-gap: 20px;
+align-items: stretch;
+}
+.grid > div {
+border: 1px solid #ccc;
+box-shadow: 2px 2px 6px 0px  rgba(0,0,0,0.3);
+}
+.grid > div img {
+max-width: 100%;
+}
+.text {
+padding: 0 20px 20px;
+}
+.text > a {
+display: block;
+text-align: center;
+text-decoration: none;  
+background: gray;
+border: 0;
+color: white;
+padding: 10px;
+width: 100%;
+}
