@@ -1,4 +1,4 @@
-let h;
-let hallo = document.getElementById('hallo')
-h = JSON.parse(localStorage.branch)
-hallo.innerHTML = h.title
+let desc;
+let project_name = document.getElementById('project_name');
+desc = JSON.parse(localStorage.branch);
+project_name.innerHTML = desc.title;

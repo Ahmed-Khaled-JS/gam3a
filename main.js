@@ -1,10 +1,10 @@
 let products = [
   {
-    title: "John",
+    title: "Forum Low Shoes",
     desc: "Doe is very bad and very nice",
     Image: "/images/1.jpg",
     Image2: "/images/2.jpg",
-    Image3: "/gam3a/images/09c5ea6df1bd4be6baaaac5e003e7047_9366.webp",
+    Image3: "images/09c5ea6df1bd4be6baaaac5e003e7047_9366.webp",
   },
    {
     title: "ahmed",
@@ -96,7 +96,7 @@ function showDate(){
     for(let i =0; i < products.length;i++){
         table += `
             <div>
-                <img src="${products[i].Image3}" id="image" alt="Sample photo">
+                <img src="${products[i].Image2}" id="image" alt="Sample photo">
                 <div class="text"onclick="wow(i)">
                   <h3>${products[i].title}</h3>
                   <p>${products[i].desc}</p>
