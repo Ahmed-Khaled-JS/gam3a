@@ -7,9 +7,6 @@
     box-sizing: border-box;
     scroll-behavior: smooth; 
 }
-body{
-    font-size: 10px;
-}
 :root {
     --font-color1: #04ff00;
     --header-color: rgb(0 16 1 / 90%);
