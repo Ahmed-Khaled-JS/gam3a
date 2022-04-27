@@ -96,7 +96,7 @@ function showDate(){
     for(let i =0; i < products.length;i++){
         table += `
             <div>
-                <img src="${products[i].Image2}" id="image" alt="Sample photo">
+                <img src="${products[i].Image3}" id="image" alt="Sample photo">
                 <div class="text"onclick="wow(i)">
                   <h3>${products[i].title}</h3>
                   <p>${products[i].desc}</p>
