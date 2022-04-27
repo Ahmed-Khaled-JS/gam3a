@@ -12,6 +12,7 @@
     --header-color: rgb(0 16 1 / 90%);
     --font-color2:  #fff;
     --backgr-color: #000016;
+    --main-duration: 0.5s;
     --hover-color: rgb(248, 70, 0);
 }
 .products {
