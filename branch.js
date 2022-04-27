@@ -2,3 +2,16 @@ let desc;
 let project_name = document.getElementById('project_name');
 desc = JSON.parse(localStorage.branch);
 project_name.innerHTML = desc.title;
+// Start GAllary //
+let img_1 = document.getElementById('img_1');
+let img_2 = document.getElementById('img_2');
+let img_3 = document.getElementById('img_3');
+let img_4 = document.getElementById('img_4');
+img_1.src = desc.Image;
+img_2.src = desc.Image2;
+img_3.src = desc.Image3;
+img_4.src = desc.Image4;
+img_5.src = desc.Image;
+
+
+// End GAllary //

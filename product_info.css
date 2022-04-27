@@ -158,3 +158,17 @@ header .logo img {
 .navigation a:hover {
     color: var(--hover-color);
 }
+@media (max-width: 500px) {
+    .image{
+        margin-top: 40px;
+        padding-left: 15px;
+    }
+    .main img{
+        width: 350px;
+        height: 300px;
+    
+    }
+    .photos{
+        padding-left: 50px;
+    }
+}
