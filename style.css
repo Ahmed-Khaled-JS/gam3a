@@ -136,6 +136,7 @@ width: 100%;
     }
 }
 /* HEADER*/
+
 header {
     position: fixed;
     display: flex;
@@ -161,7 +162,7 @@ header .left-section a{
 
 header i{
     color: var(--font-color1);
-    font-size: 2rem;
+    font-size: 1.5rem;
     font-weight: 500;
     padding-right: 30px;
     cursor: pointer;
@@ -176,7 +177,7 @@ header .logo {
     text-decoration: none;
     color: var(--font-color1);
     font-weight: 400;
-    font-size: 2rem;
+    font-size: 1.5rem;
     transition: var(--main-duration) ease;
 }
 
@@ -194,7 +195,7 @@ header .logo img {
 
 .navigation a {
     color: var(--font-color1);
-    font-size: 1.7rem;
+    font-size: 1rem;
     font-weight: 500;
     padding-left: 30px;
     text-decoration: none;
