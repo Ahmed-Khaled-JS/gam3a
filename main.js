@@ -109,7 +109,7 @@ function showDate(){
     for(let i =0; i < products.length;i++){
         table += `
             <div>
-                <img src="${products[i].Image3}" onmouseenter="adidas(${i})" alt="Sample photo">
+                <img src="${products[i].Image3}" id="image${i}" onmouseleave="main(${i})" onmouseover="adidas(${i})" alt="Sample photo">
                 <div class="text"onclick="wow(i)">
                   <h3>${products[i].title}</h3>
                   <p>${products[i].desc}</p>
@@ -121,9 +121,13 @@ function showDate(){
     document.getElementById('id').innerHTML = table;
 
 }
-
+function main(i){
+let im = document.getElementById('image'+i)  
+im.src = products[i].Image3
+}
 function adidas(i){
-this.src = products[i].Image2
+let im = document.getElementById('image'+i)  
+im.src = products[i].Image4
 }
 showDate()
 function wow(i){
