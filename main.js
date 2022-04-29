@@ -82,7 +82,7 @@ let products = [
   },
   {
     title: "AC MILAN shirt",
-    desc: "AC MILAN X NEMEN PRE-MATCH TOP 2021/22",
+    desc: "AC MILAN X PRE-MATCH TOP 2021/22",
     price: "200 L.E",
     Image: "store_images/num10/1.webp",
     Image2: "store_images/num10/2.webp",
