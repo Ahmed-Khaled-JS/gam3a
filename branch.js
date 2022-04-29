@@ -1,7 +1,9 @@
 let desc;
 let project_name = document.getElementById('project_name');
+let price = document.getElementById('price');
 desc = JSON.parse(localStorage.branch);
 project_name.innerHTML = desc.title;
+price.innerHTML = desc.price
 // Start GAllary //
 let img_1 = document.getElementById('img_1');
 let img_2 = document.getElementById('img_2');
