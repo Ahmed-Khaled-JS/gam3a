@@ -190,7 +190,7 @@ function showDate(){
                   <h3>${products[i].title}</h3>
                   <p>${products[i].desc}</p>
                   <h3>${products[i].price}</h3>
-                  <a  onclick="wow(${i})" href="wow.html">more</a>
+                  <a  onclick="wow(${i})" href="product_info.html">more</a>
                 </div> 
            </div>
         `
