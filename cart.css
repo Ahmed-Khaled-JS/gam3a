@@ -422,7 +422,7 @@ footer .container ul {
     margin-top: 10px;
     transition: 0.7s ease;
 }
-.hepo {
+.hepo:hover {
     background-color: #07621a;
     transform: scale(1.1);
 }
@@ -438,5 +438,9 @@ footer .container ul {
     .container{
         padding-left: 100px;
     }
-    
+    .zhb{
+        position: absolute;
+        bottom: -4px;
+        right: 5px;
+    }
 }
