@@ -186,7 +186,7 @@ function showDate(){
         table += `
             <div>
                 <img src="${products[i].Image}" id="image${i}" onmouseleave="main(${i})" onmouseover="adidas(${i})" alt="Sample photo">
-                <div class="text"onclick="wow(i)">
+                <div class="text">
                   <h3>${products[i].title}</h3>
                   <p>${products[i].desc}</p>
                   <h3>${products[i].price}</h3>

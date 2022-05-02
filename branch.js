@@ -14,6 +14,15 @@ img_2.src = desc.Image2;
 img_3.src = desc.Image3;
 img_4.src = desc.Image4;
 img_5.src = desc.Image;
-
+let cart;
+if(localStorage.cart1 != null){
+    cart = JSON.parse(localStorage.cart1)
+}else{
+    cart = [];
+}
+function cart_wow(){
+    cart.push(desc);
+    localStorage.cart1 = JSON.stringify(cart);
+}
 
 // End GAllary //
